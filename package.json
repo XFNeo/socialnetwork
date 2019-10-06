@@ -1,0 +1,26 @@
+{
+  "name": "socialnetwork",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "repository": "https://github.com/XFNeo/socialnetwork.git",
+  "author": "XFNeo <xf.neo@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-resource": "^1.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
