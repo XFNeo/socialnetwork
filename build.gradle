@@ -26,6 +26,7 @@ dependencies {
     compile('org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.1.9.RELEASE')
     compile('org.springframework.session:spring-session-jdbc')
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    compile("org.springframework.boot:spring-boot-starter-websocket")
     compile('org.postgresql:postgresql')
     compileOnly 'org.projectlombok:lombok:1.18.10'
     annotationProcessor 'org.projectlombok:lombok:1.18.10'
