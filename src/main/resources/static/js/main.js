@@ -3,7 +3,9 @@ import VueResource from 'vue-resource'
 import App from 'pages/App.vue'
 import {connect} from 'util/ws.js'
 
-connect()
+if (frontendData.profile) {
+    connect()
+}
 
 Vue.use(VueResource)
 
